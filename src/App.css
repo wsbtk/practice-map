@@ -1,0 +1,336 @@
+
+*:focus {
+  border: #e93 solid 2px;
+  box-sizing: border-box;
+}
+
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, main {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+  font-family: 'Carrois Gothic', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  color: grey;
+}
+
+a:hover {
+  color: #ace;
+}
+
+button {
+  border: none;
+  width: 90%;
+  font: inherit;
+  color: white;
+  background-color: #02283a;
+  margin: 5px 3px;
+  padding: 10px;
+}
+
+input {
+  margin: 10px 44px 5px;
+  padding: 15px;
+  width: 65%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  display: flex;
+  flex-flow: column;
+}
+
+h2 {
+  font-size: 1.2em;
+}
+
+
+.App {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.pb {
+  display: flex;
+  z-index: 1;
+  max-height: 30%;
+  float: bottom;
+  align-self: flex-start;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.grid {
+  display: grid;
+  max-width: 100%;
+  height: 100%;
+  grid-template-columns: 300px minmax(100px, auto);
+  grid-template-rows: 1fr minmax(700px, auto) 1fr;
+  grid-gap: 10px;
+  grid-template-areas:
+    "second first"
+    "second third"
+    "second third"
+    "fourth third";
+}
+
+.item {
+  background-color: #111;
+  color: #ace;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+.item-1 {
+  display: flex;
+  grid-area: first;
+
+}
+
+.item-2 {
+  display: flex;
+  grid-area: second;
+  background-color: #094460;
+  height: auto;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.item-3 {
+  display: flex;
+  grid-area: third;
+  position: relative;
+  height: auto;
+  justify-content: left;
+  align-items: stretch;
+}
+
+.item-4 {
+  display: flex;
+  background-color: black;
+  grid-area: fourth;
+  color: #e93;
+  padding: 0;
+  z-index: 999;
+}
+
+
+/*---------------------------------------------------------*/
+/* ------------ OVERRIDE GOOGLE MAP STYLES --------------- */
+
+.gm-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.gm-err-container {
+  display: flex;
+  background-color: black;
+  justify-content: center;
+  align-items: flex-start;
+  width: auto;
+}
+
+
+.gm-err-title {
+  font-size: 1.5em;
+  color: #e93;
+}
+
+
+.gm-err-message {
+  color: #ace;
+  font-size: 1em;
+}
+
+
+.gm-err-icon {
+margin: 190px 0 0;
+}
+
+
+.gm-style
+.gm-style-iw {
+  padding: 10px;
+}
+
+
+/* Infowindow style */
+.gm-style-iw {
+  color: #080808;
+  max-height: 300px;
+  max-width: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  align-self: center;
+  justify-content: right;
+  margin: 0 auto;
+  padding: 20% auto;
+  overflow: hidden;
+}
+
+.info-pic {
+  width: 180px;
+}
+
+/* ------------END OVERRIDE GOOGLE MAP STYLES--------------- */
+/*-----------------------------------------------------------*/
+
+
+
+
+
+
+/*-----------------------------------------------------------*/
+/* ---------------------RESPONSIVE-------------------------- */
+
+@media screen and (max-width: 350px) {
+
+  button {
+    width: 111px;
+    height:63px;
+    font-size: 0.8em;
+  }
+
+  h1 {
+    color: #e93;
+    font-size: 0.8em;
+    letter-spacing: 2px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .pb {
+    display: none;
+  }
+
+  .grid {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: minmax(100px, auto);
+    grid-template-rows: 70px minmax(500px, auto) 1fr 40px;
+    grid-gap: 5px;
+    grid-template-areas:
+      "first"
+      "third"
+      "second"
+      "fourth";
+  }
+
+}
+
+/*-----------------------------------------------------------*/
+
+@media screen and (min-width: 351px) and (max-width: 600px) {
+
+  button {
+    font-size: 0.8em;
+    width: 125px;
+    height: 60px;
+  }
+
+  h1 {
+    color: #e93;
+    font-size: 1em;
+    letter-spacing: 2px;
+  }
+
+/* Change list items display from column to row */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .item {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+  }
+
+  .grid {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: minmax(100px, auto);
+    grid-template-rows: 70px minmax(500px, auto) 1fr 40px;
+    grid-gap: 5px;
+    grid-template-areas:
+      "first"
+      "third"
+      "second"
+      "fourth";
+  }
+
+  .pb {
+    display: none;
+  }
+
+}
+
+/*-----------------------------------------------------------*/
+
+@media screen and (min-width: 601px) and (max-width: 800px) {
+
+  h1 {
+    color: #e93;
+    font-size: 2em;
+    letter-spacing: 2px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .grid {
+    display: grid;
+    max-width: 100%;
+    grid-template-columns: minmax(100px, auto);
+    grid-template-rows: 70px minmax(500px, auto) 1fr 40px;
+    grid-gap: 5px;
+    grid-template-areas:
+      "first"
+      "third"
+      "second"
+      "fourth";
+  }
+
+  .pb {
+    display: none;
+  }
+
+
+}
+/* --------------------END RESPONSIVE----------------------- */
+/*-----------------------------------------------------------*/

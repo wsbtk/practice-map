@@ -1,0 +1,132 @@
+
+[
+
+
+  {
+
+    "place_id" : "ChIJMd4VpOVHs0ARgfgff6sh2ZInks8",
+    "name": "Bran Castle",
+    "flickr":"https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=d5cee5f14e7aa7d63adac989cd5d6255&tags=Bran%20Castle&per_page=1&page=1&format=json&nojsoncallback=1",
+    "wikiLink": "https://en.wikipedia.org/wiki/Bran_Castle",
+    "latlng": {
+    "lat": 45.5149,
+    "lng": 25.3672
+  }
+
+  },
+
+
+  {
+
+    "place_id" : "ChIJbVXg0uwWs0ARrdXzlKVjbpo",
+    "name": "Peles Castle",
+    "flickr": "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=d5cee5f14e7aa7d63adac989cd5d6255&tags=Peles%20Castle&per_page=1&page=1&format=json&nojsoncallback=1",
+    "wikiLink": "https://en.wikipedia.org/wiki/Pele%C8%99_Castle",
+    "latlng": {
+      "lat": 45.3600,
+      "lng": 25.5426
+    }
+
+  },
+
+
+  {
+
+    "place_id" : "ChIJy3Qq_I6KTkcRFuk1uuh67Cw",
+    "name": "Corvin Castle",
+    "flickr": "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=d5cee5f14e7aa7d63adac989cd5d6255&tags=Corvin%20Castle&per_page=1&page=1&format=json&nojsoncallback=1",
+    "wikiLink": "https://en.wikipedia.org/wiki/Corvin_Castle",
+    "latlng": {
+      "lat": 45.7493,
+      "lng": 22.8883
+    }
+
+  },
+
+
+  {
+
+    "place_id" : "ChIJLWaPAaVFs0AReosfX0btjBA",
+    "name": "Rasnov Citadel",
+    "flickr": "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=d5cee5f14e7aa7d63adac989cd5d6255&tags=Rasnov%20Citadel&per_page=1&page=1&format=json&nojsoncallback=1",
+    "wikiLink": "https://en.wikipedia.org/wiki/R%C3%A2%C8%99nov_Citadel",
+    "latlng": {
+      "lat": 45.5906,
+      "lng": 25.4694
+    }
+
+  },
+
+
+  {
+
+    "place_id" : "ChIJHVeRz3mhTEcR37KkzDHLlys",
+    "name": "Fagaras Citadel",
+    "flickr": "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=d5cee5f14e7aa7d63adac989cd5d6255&tags=Fagaras%20Castle&per_page=1&page=1&format=json&nojsoncallback=1",
+    "wikiLink": "https://en.wikipedia.org/wiki/F%C4%83g%C4%83ra%C8%99_Citadel",
+    "latlng": {
+      "lat": 45.8453,
+      "lng": 24.9738
+    }
+
+  },
+
+
+  {
+
+    "place_id" : "ChIJVQz-Jd6nTkcRucse8-yHz5Y",
+    "name": "Alba-Carolina Citadel",
+    "flickr": "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=d5cee5f14e7aa7d63adac989cd5d6255&tags=Alba-Iulia%20Citadel&per_page=1&page=1&format=json&nojsoncallback=1",
+    "wikiLink": "https://en.wikipedia.org/wiki/Citadel_Alba_Carolina",
+    "latlng": {
+      "lat": 46.0686,
+      "lng": 23.5717
+    }
+
+  },
+
+
+  {
+
+    "place_id" : "ChIJTy3cY6dES0cRuCvwLxF7st4",
+    "name": "Rupea Fortress",
+    "flickr": "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=d5cee5f14e7aa7d63adac989cd5d6255&tags=Rupea%20Fortress&per_page=1&page=1&format=json&nojsoncallback=1",
+    "wikiLink": "https://en.wikipedia.org/wiki/Rupea_Citadel",
+    "latlng": {
+      "lat": 46.0378,
+      "lng": 25.2129
+    }
+
+  },
+
+
+  {
+
+    "place_id" : "ChIJ0ZFEJMZ1S0cR-cElgdeyFwk",
+    "name": "Sighishoara Citadel",
+    "flickr": "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=d5cee5f14e7aa7d63adac989cd5d6255&tags=citadel%20sighisoara&per_page=1&page=1&format=json&nojsoncallback=1",
+    "wikiLink": "https://en.wikipedia.org/wiki/Historic_Centre_of_Sighi%C8%99oara",
+    "latlng": {
+      "lat": 46.2198,
+      "lng": 24.7920
+    }
+
+  },
+
+
+  {
+
+    "place_id" : "ChIJV787r4HYTEcRPoajq7wUS5s",
+    "name": "Poenari Castle",
+    "flickr": "https://api.flickr.com/services/rest/?method=flickr.photos.search&api_key=d5cee5f14e7aa7d63adac989cd5d6255&tags=Poenari%20Castle&per_page=1&page=1&format=json&nojsoncallback=1",
+    "wikiLink": "https://en.wikipedia.org/wiki/Poenari_Castle",
+    "latlng": {
+      "lat": 45.3536,
+      "lng": 24.6351
+    }
+
+  }
+
+
+
+]
