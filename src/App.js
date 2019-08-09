@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import MapContainer from './components/MapContainer.js'
 import SearchList from './components/SearchList.js'
 import CastlesData from './data/castles.json';
-import axios from 'axios'
+//import axios from 'axios'
 //import Footer from './components/Footer.js'
 // import escapeRegExp from 'escape-string-regexp'
 
